@@ -11,7 +11,10 @@ const ProductPage = () => {
 
     return (
         <div className="product-page">
-            <img src={product.image} alt={product.name} className="product-image" />``
+            <video >
+                <source src="" />
+            </video>
+            {/* <img src={product.image} alt={product.name} className="product-image" />`` */}
             <div className="product-des">
 
                 <h1 className="product-title">Unlock Your Potential with Our Comprehensive English Course!</h1>
@@ -42,7 +45,7 @@ const ProductPage = () => {
 
             </div>
             {/* <p className="product-price">{product.price}</p> */}
-            <button className="join-now-btn">Join Now</button>
+            <a className="join-now-btn" href="https://docs.google.com/forms/d/e/1FAIpQLSd7aO4PKA4m7QJ7fRwUdbSccyyrTpr3G4Y79NHZ9MrMHBfiVw/viewform?usp=sf_link" target="_blank">Join Now</a>
         </div>
     );
 };

@@ -10,8 +10,8 @@ const Footer = () => {
             <div className="contact-info">
                 <h4>Contact Us</h4>
                 <p>Email: info@educationcourse.com</p>
-                <p>Phone: +1 (123) 456-7890</p>
-                <p>Address: 123 Education St, Learning City, LC 12345</p>
+                <p>Phone: +977-9763458906 <br/>+977-9851030748</p>
+                <p>Address: Kathmandu,Nepal</p>
             </div>
         </footer>
     );
